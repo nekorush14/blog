@@ -2,9 +2,7 @@ plugins:
   - jekyll-paginate
 
 # markdown configs
-markdown: redcarpet
-redcarpet:
-  extensions: [tables,autolink,strikethrough]
+markdown: kramdown
 safe: true
 lsi: false
 highlighter: pygments
