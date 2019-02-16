@@ -65,3 +65,10 @@ Portfolioのページは以下のようになりました．
 ようやく落ち着きPortfolioを割り当てることにしました．今回はガリガリHTMLにMaterializeの属性付きタグを書いていきましたが，
 [Jekyll](https://jekyllrb.com/)のテーマを使うと簡単にできるらしい(自分好みのデザインがあるかは別)．
 と言いつつこのBlogはJekyllを静的サイトジェネレーターとして使ってるので，どのように実装したかを書けるといいかな?
+
+### Reference
+
+<ul class="browser-default">
+  <li><a href="https://jekyllrb.com/">Jekyll • Simple, blog-aware, static sites | Transform your plain text into static websites and blogs</a></li>
+  <li><a href="https://github.com/mnishiguchi/mnishiguchi.com">mnishiguchi/mnishiguchi.com: Masatoshi Nishiguchi's blog.</a></li>
+</ul>
