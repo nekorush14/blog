@@ -9,6 +9,7 @@ safe: true
 lsi: false
 highlighter: pygments
 
+url: "https://danboruya.github.io/blog/"
 permalink: pretty
 include: 
   - _pages
