@@ -1,3 +1,5 @@
+title: Research and Development Blog
+description: "研究や技術のお話をしたり，忘備録的に記事を書いたりします．"
 plugins: 
   - jekyll-paginate
 
