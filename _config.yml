@@ -6,8 +6,8 @@ markdown: kramdown
 safe: true
 lsi: false
 
-
-baseurl: "https://danboruya.github.io/blog/"
+url: "https://danboruya.github.io/blog"
+baseurl: ""
 permalink: pretty
 include: 
   - _pages

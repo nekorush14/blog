@@ -27,7 +27,7 @@ permalink: /tags
       <ul class="browser-default">
         {% for post in site.tags[tag_name] %}
           <li>
-            <a href="{{ post.url | prepend: baseurl }}">{{ post.title }}</a>
+            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
           </li>
         {% endfor %}
       </ul>

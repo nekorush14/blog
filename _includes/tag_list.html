@@ -11,7 +11,7 @@
 <div>
   {% for tag_name in tag_names %}
     <span>
-      <a href="{{ baseurl }}/tags#{{ tag_name | slugize }}" class="chip amber darken-3 white-text">
+      <a href="{{ site.url }}/tags#{{ tag_name | slugize }}" class="chip amber darken-3 white-text">
         {{ tag_name }}
       </a>
     </span>
