@@ -33,7 +33,7 @@ Portfolioのテーマとして[Materialize](https://materializecss.com/)を使�
 2. ローカル上でPortfolioを構成するHtmlを作成
 3. 以下のコマンドでGitHub上にPush
 
-    ```bash
+    ```shell
     cd /path/to/portfolio/page/
     git init
     git add .
