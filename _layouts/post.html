@@ -9,7 +9,7 @@ layout: default
   {{ page.date | date: "%B %-d, %Y" }}
 </time>&nbsp;
 {% for tag in page.tags %}
-<a href="{{ baseurl }}/tags#{{ tag | slugize }}" class="chip amber darken-3 white-text">{{ tag }}</a>
+<a href="{{ site.url }}/tags#{{ tag | slugize }}" class="chip amber darken-3 white-text">{{ tag }}</a>
 {% endfor %}
 
 <br /><br />

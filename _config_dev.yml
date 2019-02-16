@@ -1,2 +1,20 @@
+plugins: 
+  - jekyll-paginate
+
+# markdown configs
+markdown: kramdown
+safe: true
+lsi: false
+
 url: "https://localhost:4000/blog"
 baseurl: ""
+permalink: pretty
+include: 
+  - _pages
+
+# pagenate configs
+paginate: 5
+paginate_path: "/page/:num/"
+inter_post_navigation: false
+
+ga_tracking_id: "UA-134623824-2"
