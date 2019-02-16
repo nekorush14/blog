@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<ul class="collection with-header">
+  <li class="collection-header">
+    <h3>Post list</h3>
+  </li>
+  {% for post in site.posts %}
+  <li class="collection-item hoverable">
+    <h4 class="post_title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h4>
+    <time>{{ post.date | date: '%B %d, %Y' }}</time>&nbsp;
+    {% for tag in post.tags %}
+      <span class="chip amber darken-3 white-text">{{ tag }}</span>
+    {% endfor %}
+    <br /><br />
+    <div class="post_excerpt">{{ post.excerpt }}</div>
+  </li>
+  {% endfor %}
+</ul>

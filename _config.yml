@@ -1,0 +1,19 @@
+plugins: 
+  - jekyll-paginate
+
+# markdown configs
+markdown: redcarpet
+redcarpet:
+  extensions: [tables,autolink,strikethrough]
+safe: true
+lsi: false
+highlighter: pygments
+
+permalink: pretty
+include: 
+  - _pages
+
+# pagenate configs
+paginate: 5
+paginate_path: "/page/:num/"
+inter_post_navigation: false
