@@ -1,4 +1,4 @@
-title: Research and Development Blog
+title: "Research and Development Blog"
 description: "研究や技術のお話をしたり，忘備録的に記事を書いたりします．"
 plugins: 
   - jekyll-paginate
@@ -14,9 +14,9 @@ permalink: pretty
 include: 
   - _pages
 
-# pagenate configs
+# paginate configs
 paginate: 5
 paginate_path: "/page/:num/"
 inter_post_navigation: false
 
-ga_tracking_id: "UA-134623824-2"
+# ga_tracking_id: "UA-134623824-2"
