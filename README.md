@@ -4,7 +4,7 @@
 
 ## Description
 
-This repository is a blog project for [danboruya's portfolio](https://danboruya.github.io) using Jekyll.
+This repository is a blog project for [Mitesuhiir Komuro's portfolio](https://nekorush14.github.io) using Jekyll.
 
 The new article posted by creating markdown file on `_post` directory.
 
