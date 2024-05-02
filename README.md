@@ -1,4 +1,4 @@
-# Danboruya's blog
+# Mitsuhiro Komuro's Github Pages blog
 
 [![Github license](https://img.shields.io/github/license/Danboruya/blog.svg?style=flat)](https://raw.githubusercontent.com/Danboruya/blog/master/LICENSE)
 
